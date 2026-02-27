@@ -129,5 +129,38 @@ fun PantallaPerfil() {
     ) {
 
 
+        Image(
+            painter = painterResource(id = R.drawable.perfil),
+            contentDescription = "Foto de perfil",
+            modifier = Modifier
+                .width(110.dp)
+                .height(110.dp)
+                .clip(CircleShape),
+            contentScale = ContentScale.Crop
+        )
+
+
+        Text(
+            text = "Helbert Mauricio",
+            fontSize = 20.sp,
+            fontWeight = FontWeight.Bold,
+            color = Color.Black,
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(top = 14.dp),
+            textAlign = TextAlign.Center
+        )
+
+
+        Text(
+            text = "Desarrollador Android apasionado por la\ntecnología y el diseño.",
+            fontSize = 12.sp,
+            color = Color.DarkGray,
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(top = 6.dp),
+            textAlign = TextAlign.Center
+        )
+
 
 
