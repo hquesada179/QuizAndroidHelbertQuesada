@@ -312,7 +312,7 @@ fun PantallaPerfil() {
                 .padding(top = 0.dp)
         ) {
             Image(
-                painter = painterResource(id = R.drawable.perfil_foto),
+                painter = painterResource(id = R.drawable.perfil),
                 contentDescription = "Proyecto",
                 modifier = Modifier
                     .width(110.dp)
@@ -469,7 +469,7 @@ fun PantallaPerfil() {
                     .padding(top = 0.dp)
             ) {
                 Image(
-                    painter = painterResource(id = R.drawable.perfil_foto),
+                    painter = painterResource(id = R.drawable.perfil),
                     contentDescription = "Proyecto",
                     modifier = Modifier
                         .width(110.dp)
